@@ -1,0 +1,111 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+StateError: Bad state: No element
+
+```
+#0      Stream.first.<anonymous closure> (dart:async/stream.dart:1581:9)
+#1      _rootRun (dart:async/zone.dart:1390:47)
+#2      _CustomZone.run (dart:async/zone.dart:1300:19)
+#3      _CustomZone.runGuarded (dart:async/zone.dart:1208:7)
+#4      _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:392:13)
+#5      _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:402:7)
+#6      _BufferingStreamSubscription._close (dart:async/stream_impl.dart:291:7)
+#7      _SyncBroadcastStreamController._sendDone.<anonymous closure> (dart:async/broadcast_stream_controller.dart:399:22)
+#8      _BroadcastStreamController._forEachListener (dart:async/broadcast_stream_controller.dart:322:15)
+#9      _SyncBroadcastStreamController._sendDone (dart:async/broadcast_stream_controller.dart:398:7)
+#10     _BroadcastStreamController.close (dart:async/broadcast_stream_controller.dart:268:5)
+#11     _AsBroadcastStreamController.close (dart:async/broadcast_stream_controller.dart:505:27)
+#12     _rootRun (dart:async/zone.dart:1390:47)
+#13     _CustomZone.run (dart:async/zone.dart:1300:19)
+#14     _CustomZone.runGuarded (dart:async/zone.dart:1208:7)
+#15     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:392:13)
+#16     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:402:7)
+#17     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:291:7)
+#18     _SinkTransformerStreamSubscription._close (dart:async/stream_transformers.dart:87:11)
+#19     _EventSinkWrapper.close (dart:async/stream_transformers.dart:21:11)
+#20     _StringAdapterSink.close (dart:convert/string_conversion.dart:251:11)
+#21     _Utf8ConversionSink.close (dart:convert/string_conversion.dart:305:20)
+#22     _ErrorHandlingAsciiDecoderSink.close (dart:convert/ascii.dart:261:15)
+#23     _ConverterStreamEventSink.close (dart:convert/chunked_conversion.dart:81:18)
+#24     _SinkTransformerStreamSubscription._handleDone (dart:async/stream_transformers.dart:132:24)
+#25     _rootRun (dart:async/zone.dart:1390:47)
+#26     _CustomZone.run (dart:async/zone.dart:1300:19)
+#27     _CustomZone.runGuarded (dart:async/zone.dart:1208:7)
+#28     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:392:13)
+#29     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:402:7)
+#30     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:291:7)
+#31     _SyncStreamControllerDispatch._sendDone (dart:async/stream_controller.dart:782:19)
+#32     _StreamController._closeUnchecked (dart:async/stream_controller.dart:637:7)
+#33     _StreamController.close (dart:async/stream_controller.dart:630:5)
+#34     _Socket._onData (dart:io-patch/socket_patch.dart:2330:21)
+#35     _rootRunUnary (dart:async/zone.dart:1414:13)
+#36     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#37     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#38     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#39     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#40     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:774:19)
+#41     _StreamController._add (dart:async/stream_controller.dart:648:7)
+#42     _StreamController.add (dart:async/stream_controller.dart:596:5)
+#43     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1855:35)
+#44     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1314:18)
+#45     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#46     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#47     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:122:13)
+#48     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:193:5)
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel dev, 3.4.0-17.2.pre, on Microsoft Windows [Version 10.0.22631.3296], locale en-IN)
+    [32m•[39m Flutter version 3.4.0-17.2.pre on channel dev at C:\Users\Administrator\Downloads\flutter_windows_3.7.12-stable\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision d6260f127f (1 year, 6 months ago), 2022-09-21 13:33:49 -0500
+    [32m•[39m Engine revision 3950c6140a
+    [32m•[39m Dart version 2.19.0 (build 2.19.0-146.2.beta)
+    [32m•[39m DevTools version 2.16.0
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    [32m•[39m Android SDK at C:\Users\Administrator\AppData\Local\Android\sdk
+    [32m•[39m Platform android-VanillaIceCream, build-tools 34.0.0
+    [32m•[39m Java binary at: D:\Software\jdk-20_windows-x64_bin\jdk-20.0.2\bin\bin\java
+    [31m✗[39m Cannot execute D:\Software\jdk-20_windows-x64_bin\jdk-20.0.2\bin\bin\java to determine the version
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop for Windows (Visual Studio Community 2022 17.9.2)
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.9.34622.214
+    [32m•[39m Windows 10 SDK version 10.0.22621.0
+
+[33m[!][39m Android Studio (version 2022.3)
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio1
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [31m✗[39m Unable to find bundled Java version.
+    [32m•[39m Try updating or re-installing Android Studio.
+
+[32m[✓][39m VS Code (version 1.81.1)
+    [32m•[39m VS Code at C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.84.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3296]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 122.0.6261.129
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 122.0.2365.92
+
+[32m[✓][39m HTTP Host Availability
+    [32m•[39m All required HTTP hosts are available
+
+[33m![39m Doctor found issues in 2 categories.
+```

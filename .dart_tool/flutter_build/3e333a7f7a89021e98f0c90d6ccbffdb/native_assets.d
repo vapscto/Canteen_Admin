@@ -1,0 +1,1 @@
+ D:\\Flutter_application\\New_folder\\canteen_management\\.dart_tool\\flutter_build\\3e333a7f7a89021e98f0c90d6ccbffdb\\native_assets.yaml: 

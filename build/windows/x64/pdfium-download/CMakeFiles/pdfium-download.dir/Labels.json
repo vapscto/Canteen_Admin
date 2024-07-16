@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/d6897c56dcc2df044ad7d364023a7037/pdfium-download.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/605f784011fc579f54867388500f8111/pdfium-download-complete.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-build.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-configure.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-download.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-install.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-patch.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-test.rule"
+		},
+		{
+			"file" : "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pdfium-download"
+		],
+		"name" : "pdfium-download"
+	}
+}
