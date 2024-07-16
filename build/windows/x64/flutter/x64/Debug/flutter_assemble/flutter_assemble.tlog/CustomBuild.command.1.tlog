@@ -1,6 +1,6 @@
-^D:\FLUTTER_APPLICATION\NEW_FOLDER\CANTEEN_MANAGEMENT\BUILD\WINDOWS\X64\CMAKEFILES\EC126004AF196DF427272A0635F2137B\FLUTTER_WINDOWS.DLL.RULE
+^D:\FLUTTER_APPLICATION\FLUTTER_WINDOWS_APPLICATION\CANTEEN_ADMIN\CANTEEN_ADMIN\BUILD\WINDOWS\X64\CMAKEFILES\D0F134B5071602C996E5AE35562E6ADB\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Software\flutter3.19\flutter_windows_3.19.6-stable\flutter PROJECT_DIR=D:\Flutter_application\New_folder\canteen_management FLUTTER_ROOT=D:\Software\flutter3.19\flutter_windows_3.19.6-stable\flutter FLUTTER_EPHEMERAL_DIR=D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral PROJECT_DIR=D:\Flutter_application\New_folder\canteen_management FLUTTER_TARGET=D:\Flutter_application\New_folder\canteen_management\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lZGQ4NTQ2MTE2NDU3YmRmMWM1YmRmYjEzZWNiOTQ2M2QyYmI1ZWQ0Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Flutter_application\New_folder\canteen_management\.dart_tool\package_config.json D:/Software/flutter3.19/flutter_windows_3.19.6-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Software\flutter3.19\flutter_windows_3.19.6-stable\flutter PROJECT_DIR=D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin FLUTTER_ROOT=D:\Software\flutter3.19\flutter_windows_3.19.6-stable\flutter FLUTTER_EPHEMERAL_DIR=D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral PROJECT_DIR=D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin FLUTTER_TARGET=D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lZGQ4NTQ2MTE2NDU3YmRmMWM1YmRmYjEzZWNiOTQ2M2QyYmI1ZWQ0Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\.dart_tool\package_config.json D:/Software/flutter3.19/flutter_windows_3.19.6-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\FLUTTER_APPLICATION\NEW_FOLDER\CANTEEN_MANAGEMENT\BUILD\WINDOWS\X64\CMAKEFILES\83E1962F81FA7CA248CD425700654C7F\FLUTTER_ASSEMBLE.RULE
+^D:\FLUTTER_APPLICATION\FLUTTER_WINDOWS_APPLICATION\CANTEEN_ADMIN\CANTEEN_ADMIN\BUILD\WINDOWS\X64\CMAKEFILES\D5E7B2C73A0D6274325188915C659F67\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^D:\FLUTTER_APPLICATION\NEW_FOLDER\CANTEEN_MANAGEMENT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^D:\FLUTTER_APPLICATION\FLUTTER_WINDOWS_APPLICATION\CANTEEN_ADMIN\CANTEEN_ADMIN\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

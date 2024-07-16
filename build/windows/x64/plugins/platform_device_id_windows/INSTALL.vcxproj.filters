@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\CMakeFiles\b3843fb7e0d7595c22d8c6b6e0e9c974\INSTALL_force.rule">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\CMakeFiles\56d44d8625ee5f60ff5926f2164bf85e\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CC863ECE-90C2-358F-A96B-70202565D0C0}</UniqueIdentifier>
+      <UniqueIdentifier>{7E49B3CE-0A32-38D3-BD39-BBCB325DF768}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

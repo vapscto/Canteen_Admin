@@ -2,46 +2,46 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\connectivity_plus\Debug\connectivity_plus_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\connectivity_plus\Debug\connectivity_plus_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\desktop_window\Debug\desktop_window_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\desktop_window\Debug\desktop_window_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\flutter_acrylic\Debug\flutter_acrylic_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\flutter_acrylic\Debug\flutter_acrylic_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\platform_device_id_windows\Debug\platform_device_id_windows_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\platform_device_id_windows\Debug\platform_device_id_windows_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\printing\Debug\printing_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\printing\Debug\printing_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\screen_retriever\Debug\screen_retriever_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\screen_retriever\Debug\screen_retriever_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\smart_auth\Debug\smart_auth_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\smart_auth\Debug\smart_auth_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Debug\syncfusion_pdfviewer_windows_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Debug\syncfusion_pdfviewer_windows_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\url_launcher_windows\Debug\url_launcher_windows_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\url_launcher_windows\Debug\url_launcher_windows_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\window_manager\Debug\window_manager_plugin.dll</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\window_manager\Debug\window_manager_plugin.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\runner\Debug\canteen_management.exe</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\runner\Debug\canteen_management.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

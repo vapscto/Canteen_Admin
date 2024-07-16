@@ -1,0 +1,1 @@
+ D:\\Flutter_application\\flutter_windows_application\\canteen_admin\\Canteen_Admin\\.dart_tool\\flutter_build\\c274bbdc034682dc315b446754f0f07b\\native_assets.yaml: 

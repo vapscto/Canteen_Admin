@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\CMakeFiles\ec126004af196df427272a0635f2137b\flutter_windows.dll.rule">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\CMakeFiles\d0f134b5071602c996e5ae35562e6adb\flutter_windows.dll.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\CMakeFiles\83e1962f81fa7ca248cd425700654c7f\flutter_assemble.rule">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\CMakeFiles\d5e7b2c73a0d6274325188915c659f67\flutter_assemble.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+    <None Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CC863ECE-90C2-358F-A96B-70202565D0C0}</UniqueIdentifier>
+      <UniqueIdentifier>{7E49B3CE-0A32-38D3-BD39-BBCB325DF768}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,14 +1,14 @@
 # Target labels
  pdfium-download
 # Source files and their labels
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/d6897c56dcc2df044ad7d364023a7037/pdfium-download.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/605f784011fc579f54867388500f8111/pdfium-download-complete.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-build.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-configure.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-download.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-install.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-mkdir.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-patch.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-test.rule
-D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/CMakeFiles/ff1290985512f165973ee0b19521bd6f/pdfium-download-update.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/e4de15003cb37a91c96300de3bd5a9ac/pdfium-download.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/dac10eaec8428562db8121fba38a6c2e/pdfium-download-complete.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-build.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-configure.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-download.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-install.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-mkdir.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-patch.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-test.rule
+D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/CMakeFiles/4b2fc3f85119200f6fc3acfc6a545ef3/pdfium-download-update.rule

@@ -21,7 +21,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8791D82A-0133-381B-9ACA-74D0C1B28529}</ProjectGuid>
+    <ProjectGuid>{A99771D0-A516-3FA0-AB10-A64ACD5F3073}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\.plugin_symlinks\flutter_acrylic\windows\CMakeLists.txt">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\.plugin_symlinks\flutter_acrylic\windows\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/flutter_acrylic/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/flutter_acrylic/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,21 +127,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\flutter_acrylic\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{90FEB9D3-6BBE-36B3-8FC4-9D827E6C1C1A}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{603C1DCA-DC9D-34E5-B5F2-C30FB925C43B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\flutter_acrylic\flutter_acrylic_plugin.vcxproj">
-      <Project>{CFD5CF91-14DE-3747-90E5-15C140C56D4E}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\flutter_acrylic\flutter_acrylic_plugin.vcxproj">
+      <Project>{B01E09FC-C5A2-3548-849A-ABB16CC7A971}</Project>
       <Name>flutter_acrylic_plugin</Name>
     </ProjectReference>
   </ItemGroup>

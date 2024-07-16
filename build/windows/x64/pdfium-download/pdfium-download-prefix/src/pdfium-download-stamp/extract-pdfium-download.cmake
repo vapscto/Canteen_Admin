@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/pdfium-download-prefix/src/pdfium-win-x64.tgz" ABSOLUTE)
-get_filename_component(directory "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src" ABSOLUTE)
+get_filename_component(filename "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/pdfium-download-prefix/src/pdfium-win-x64.tgz" ABSOLUTE)
+get_filename_component(directory "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

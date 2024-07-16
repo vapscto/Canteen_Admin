@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5260626D-1DC3-352E-B412-4F821F212958}</ProjectGuid>
+    <ProjectGuid>{3793531A-789D-31D4-B745-C76086976DC6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -50,22 +50,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_app.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_app</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\Profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\Profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_app.dir\Profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_app</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_app.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_app</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -85,10 +85,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -101,7 +101,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -121,10 +121,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -137,7 +137,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -157,10 +157,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,11 +172,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\CMakeLists.txt">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -184,12 +184,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +197,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,26 +210,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc" />
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{90FEB9D3-6BBE-36B3-8FC4-9D827E6C1C1A}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{603C1DCA-DC9D-34E5-B5F2-C30FB925C43B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\flutter_assemble.vcxproj">
-      <Project>{81191932-2A03-3706-82FE-148DD3FC8186}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{C690293F-556C-36FA-9C8F-AD00A9680D99}</Project>
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

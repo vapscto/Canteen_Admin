@@ -1,6 +1,6 @@
-^D:\FLUTTER_APPLICATION\NEW_FOLDER\CANTEEN_MANAGEMENT\BUILD\WINDOWS\X64\PDFIUM-DOWNLOAD\CMAKEFILES\D6897C56DCC2DF044AD7D364023A7037\GENERATE.STAMP.RULE
+^D:\FLUTTER_APPLICATION\FLUTTER_WINDOWS_APPLICATION\CANTEEN_ADMIN\CANTEEN_ADMIN\BUILD\WINDOWS\X64\PDFIUM-DOWNLOAD\CMAKEFILES\E4DE15003CB37A91C96300DE3BD5A9AC\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-download/pdfium-download.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-download/pdfium-download.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

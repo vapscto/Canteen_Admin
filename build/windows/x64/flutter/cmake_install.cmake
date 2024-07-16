@@ -1,4 +1,4 @@
-# Install script for directory: D:/Flutter_application/New_folder/canteen_management/windows/flutter
+# Install script for directory: D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

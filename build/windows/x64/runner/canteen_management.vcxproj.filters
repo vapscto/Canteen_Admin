@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\flutter_window.cpp">
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\flutter_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\main.cpp">
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\utils.cpp">
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\win32_window.cpp">
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\win32_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\generated_plugin_registrant.cc">
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\generated_plugin_registrant.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\CMakeLists.txt" />
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\runner\Runner.rc">
+    <ResourceCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\runner\Runner.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{65890C4C-B035-378E-A007-7E00A3C6E371}</UniqueIdentifier>
+      <UniqueIdentifier>{B35DDB58-B399-3A42-81A9-0EFCE67244F2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

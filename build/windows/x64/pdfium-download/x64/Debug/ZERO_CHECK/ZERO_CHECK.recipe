@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-download\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-download\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

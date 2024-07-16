@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A37DDA14-8735-3CED-B3E1-BB9D5258413D}</ProjectGuid>
+    <ProjectGuid>{2AB0F22D-C8A9-3F0F-8FD2-674DBB57D384}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -50,19 +50,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">syncfusion_pdfviewer_windows_plugin.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">syncfusion_pdfviewer_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">syncfusion_pdfviewer_windows_plugin.dir\Profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">syncfusion_pdfviewer_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">syncfusion_pdfviewer_windows_plugin.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">syncfusion_pdfviewer_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -72,8 +72,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -94,10 +94,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";syncfusion_pdfviewer_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,13 +105,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Debug\flutter_wrapper_plugin.lib;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Debug\flutter_wrapper_plugin.lib;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Debug/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Debug/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Debug/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Debug/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -120,8 +120,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -142,10 +142,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\";syncfusion_pdfviewer_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -153,13 +153,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Profile\flutter_wrapper_plugin.lib;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Profile\flutter_wrapper_plugin.lib;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Profile/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Profile/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Profile/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Profile/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -168,8 +168,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/New_folder/canteen_management/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include" /external:I "D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/pdfium-src/include/cpp"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";syncfusion_pdfviewer_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include;D:\Flutter_application\New_folder\canteen_management\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\pdfium-src\include\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,13 +201,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Release\flutter_wrapper_plugin.lib;D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\pdfium-src\lib\pdfium.dll.lib;..\..\flutter\Release\flutter_wrapper_plugin.lib;D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Release/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Release/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Release/syncfusion_pdfviewer_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/Release/syncfusion_pdfviewer_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,11 +215,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\CMakeLists.txt">
+    <CustomBuild Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,11 +228,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,11 +241,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/New_folder/canteen_management/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows/flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/New_folder/canteen_management/windows -BD:/Flutter_application/New_folder/canteen_management/build/windows/x64 --check-stamp-file D:/Flutter_application/New_folder/canteen_management/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/windows -BD:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64 --check-stamp-file D:/Flutter_application/flutter_windows_application/canteen_admin/Canteen_Admin/build/windows/x64/plugins/syncfusion_pdfviewer_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,30 +254,30 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\New_folder\canteen_management\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\plugins\syncfusion_pdfviewer_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.cpp" />
-    <ClInclude Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.h" />
-    <ClCompile Include="D:\Flutter_application\New_folder\canteen_management\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\syncfusion_pdfviewer_windows_plugin.cpp" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.cpp" />
+    <ClInclude Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.h" />
+    <ClCompile Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\syncfusion_pdfviewer_windows_plugin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{90FEB9D3-6BBE-36B3-8FC4-9D827E6C1C1A}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{603C1DCA-DC9D-34E5-B5F2-C30FB925C43B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\flutter_assemble.vcxproj">
-      <Project>{81191932-2A03-3706-82FE-148DD3FC8186}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{C690293F-556C-36FA-9C8F-AD00A9680D99}</Project>
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Flutter_application\New_folder\canteen_management\build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj">
-      <Project>{6551828F-574C-3D75-B2DE-F104A3EF92EC}</Project>
+    <ProjectReference Include="D:\Flutter_application\flutter_windows_application\canteen_admin\Canteen_Admin\build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj">
+      <Project>{D6247480-7848-3D99-9D56-3B7785DC43A4}</Project>
       <Name>flutter_wrapper_plugin</Name>
     </ProjectReference>
   </ItemGroup>
